@@ -1,0 +1,92 @@
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-6">
+						<div class="panel panel-warning">
+			        <div class="panel-heading">
+			            <h4 class="panel-title">My Ideas...</h4>
+			        </div>
+			        <div class="panel-body">
+			            <ul>
+			                <li ng-repeat="idea in ideas | limitTo: 4"
+			                    class="phone-listing">
+			                    <a href="#/IdeaSearch/{{idea.id}}">{{idea.name}}</a>
+			                     <p>{{idea.snippet}}</p>
+			                </li>
+			            </ul>
+			        </div>
+			        <div class="panel-footer">
+
+
+			        </div>
+			    </div>
+		</div>
+
+		<div class="col-sm-6" >
+				<div class="panel panel-info">
+			        <div class="panel-heading">
+			            <h4 class="panel-title">Technology...</h4>
+			        </div>
+			        <div class="panel-body">
+			            <ul>
+			                <li ng-repeat="idea in technologyIdeas | limitTo: 4"
+			                    >
+			                    <a href="#/IdeaSearch/{{idea.id}}">{{idea.name}}</a>
+			                    <p>{{idea.snippet}}</p>
+			                </li>
+			            </ul>
+			        </div>
+			        <div class="panel-footer">
+
+
+			        </div>
+			    </div>
+		</div>
+
+	</div>
+
+		<div class="row">
+		<div class="col-sm-6">
+						<div class="panel panel-danger">
+			        <div class="panel-heading">
+			            <h4 class="panel-title">Process...</h4>
+			        </div>
+			        <div class="panel-body">
+			            <ul >
+			                <li ng-repeat="idea in processIdeas | limitTo: 4"
+			                    class="phone-listing">
+			                    <a href="#/IdeaSearch/{{idea.id}}">{{idea.name}}</a>
+			                      <p>{{idea.snippet}}</p>
+			                </li>
+			            </ul>
+			        </div>
+			        <div class="panel-footer">
+
+
+			        </div>
+			    </div>
+		</div>
+
+		<div class="col-sm-6">
+				<div class="panel panel-success">
+			        <div class="panel-heading">
+			            <h4 class="panel-title">Application LOBs ...</h4>
+			        </div>
+			        <div class="panel-body">
+			            <ul >
+			                <li ng-repeat="idea in applicationsLobIdeas | limitTo: 4"
+			                    class="phone-listing">
+			                    <a href="#/IdeaSearch/{{idea.id}}">{{idea.name}}</a>
+			                      <p>{{idea.snippet}}</p>
+			                </li>
+			            </ul>
+			        </div>
+			        <div class="panel-footer">
+
+
+			        </div>
+			    </div>
+		</div>
+
+	</div>
+</div>

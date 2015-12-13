@@ -1,0 +1,14 @@
+{
+        "age": 0, 
+        "id": "10003", "postedBy" : "ashish",
+        "imageUrl": "img/2.jpg", 
+        "name": "Offboarding is not happening fully",
+        "zone":"Process",
+        "zoneId":2,
+        "date":"11-Sep-2001",
+        "zoneCategory":"Data Security and Operational Risk Management",
+        "zoneCategoryId":202,
+        "snippet": "Whenever any associate gets offboarded it will automatically raise an Incident for every Team where he is account prevviously and asks them to deactivate their account.",
+         "voteUp":15,
+        "voteDown":7
+    }

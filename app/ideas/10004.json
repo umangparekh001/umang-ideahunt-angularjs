@@ -1,0 +1,14 @@
+ {
+        "age": 0, 
+        "id": "10004", "postedBy" : "ankit",
+        "imageUrl": "img/3.jpg", 
+        "name": "KEDB - Known Error Database",
+        "zone":"Applications LOB",
+        "zoneId":3,
+        "date":"07-Dec-2014",
+        "zoneCategory":"New Application",
+        "zoneCategoryId":308,
+        "snippet": "With this application we can easily resolve Tickets which were introduced in the past",
+         "voteUp":15,
+        "voteDown":7
+    }

@@ -1,0 +1,147 @@
+[
+    {
+        "age": 0, 
+        "id": "10001", 
+        "imageUrl": "img/1.jpg", 
+        "postedBy" : "priti",
+        "name": "Automation for Basic Softwares for New Onboarded associates",
+        "zone":"Technology",
+        "zoneId":1,
+        "date":"11-Nov-2007",
+        "zoneCategory":"IT as a Service",
+        "zoneCategoryId":106,
+        "snippet": "Currently every new associate has to submit request in appstore for every software and it is taking so much time so this way it will increase productivity and they can start working on from first day itself ",
+         "voteUp":15,
+        "voteDown":7
+    },
+    {
+        "age": 0, 
+        "id": "10006", 
+        "postedBy" : "umang",
+        "imageUrl": "img/1.jpg", 
+        "name": "Replace WSDL Services with Restful Services",
+        "zone":"Technology",
+        "zoneId":1,
+        "date":"12-Jul-2012",
+        "zoneCategory":"Technology Solutions",
+        "zoneCategoryId":105,
+        "snippet": "Currently every new associate has to submit request in appstore for every software and it is taking so much time so this way it will increase productivity and they can start working on from first day itself ",
+         "voteUp":15,
+        "voteDown":7
+    },
+     {
+        "age": 0, 
+        "id": "10002", 
+         "postedBy" : "anupam",
+        "imageUrl": "img/2.jpg", 
+        "name": "PPM should take tasks automatically from Service-now",
+        "zone":"Process",
+        "zoneId":2,
+         "date":"12-Oct-2010",
+        "zoneCategory":"Finance",
+        "zoneCategoryId":101,
+        "snippet": "Currently we are sending request in Sharepoint and then it goes to Manager for creating Tasks manually and then and then it is available for filling PPM, This way we can reduce time for all these processes",
+          "voteUp":15,
+        "voteDown":7
+    }, 
+    {
+        "age": 0, 
+        "id": "10003", "postedBy" : "ashish",
+        "imageUrl": "img/2.jpg", 
+        "name": "Offboarding is not happening fully",
+        "zone":"Process",
+        "zoneId":2,
+        "date":"11-Sep-2001",
+        "zoneCategory":"Data Security and Operational Risk Management",
+        "zoneCategoryId":202,
+        "snippet": "Whenever any associate gets offboarded it will automatically raise an Incident for every Team where he is account prevviously and asks them to deactivate their account.",
+         "voteUp":15,
+        "voteDown":7
+    },
+      {
+        "age": 0, 
+        "id": "10005", "postedBy" : "murali",
+        "imageUrl": "img/3.jpg", 
+        "name": "Application wise Knowledge bank",
+        "zone":"Applications LOB",
+        "zoneId":3,
+          "date":"19-Jan-2015",
+        "zoneCategory":"New Application",
+        "zoneCategoryId":308,
+        "snippet": "This application will be bank for Functional Knowledge of applications acroos LOBs",
+           "voteUp":15,
+        "voteDown":7
+    },
+    
+    {
+        "age": 0, 
+        "id": "10004", "postedBy" : "ankit",
+        "imageUrl": "img/3.jpg", 
+        "name": "KEDB - Known Error Database",
+        "zone":"Applications LOB",
+        "zoneId":3,
+        "date":"07-Dec-2014",
+        "zoneCategory":"New Application",
+        "zoneCategoryId":308,
+        "snippet": "With this application we can easily resolve Tickets which were introduced in the past",
+         "voteUp":15,
+        "voteDown":7
+    },
+        
+    {
+        "age": 0, 
+        "id": "10007", "postedBy" : "Anjali",
+        "imageUrl": "img/2.jpg", 
+        "name": "Productivity improvement idea",
+        "zone":"Process",
+        "zoneId":2,
+        "zoneCategory":"Improvement Framework",
+        "zoneCategoryId":220,
+        "snippet": "While transferring the chat to Home Moves team we need to ask a particular set of questions before the transfer as a check. The time taken to ask the questions increases the overall time to set up an account or close an account for the customer as about 1/4th time of the total time is taken to take the details before transferring the chat.",
+        "businessCase": " As the time taken by the Web chat customer service agent is approximately 1/4th of the total time taken to set up the account for the Move in customer or to close the account for the move out customer. It increases the total time to complete the process and hampers the productivity.",
+        "implementationAspects":"As the same set of questions are to be asked, we can add a folder of these questions in the standard text option of the Rightnow which will be easily accessible to the agent to ask the question and it will save the time.",
+        "comparativeLandscaps":"Alternatively, the agent can maintain his own sheet of all the required statement but it will take more time as compared to what will be taken if we use the standard statement.",
+        "Applicability":"This idea is for the improvement of the productivity and decrease the time taken to set up or close the account.",
+        "voteUp":5,
+        "date":"10-Dec-2015",
+        "voteDown":1
+    },
+            
+    {
+        "age": 0, 
+        "id": "10008", "postedBy" : "Diego",
+        "imageUrl": "img/1.jpg", 
+        "name": "App for automatic fix fortify issues.",
+        "zone":"Technology",
+        "zoneId":1,
+        "zoneCategory":"New Product and Ideas",
+        "date":"12-Nov-2015",
+        "zoneCategoryId":103,
+        "snippet": "Make a small app that automatic solve some commons fortify's issues, like 'Empty Catch Block'.",
+        "businessCase": "The most commons Foritify's issues are very easy to fix but insume a lot of time because the big number of findings. Automating its fixes would save a lot of time.",
+        "voteUp":10,
+        "voteDown":2
+    },
+    {
+        "age": 0, 
+        "id": "10009", "postedBy" : "Diego",
+        "imageUrl": "img/3.jpg", 
+        "name": "Canteen Service online using ID card",
+        "zone":"Applications LOB",
+        "zoneId":3,
+        "date":"12-Dec-2015",
+        "zoneCategory":"New Application",
+        "zoneCategoryId":308,
+        "snippet": "There can be online service for canteen service. For eg one can recharge his canteen account just using his ID card hi can simply do it online using is debit or credit card or he can just recharge giving cash at any canteen counteer doing this there will we less of paper work like printing of cupons etc. amount will be deducted from employees canteen ac and and added to canteen facilities this way there can be less of paper work and step can be taken towards Green Revolution (save paper save trees.) this card can be even used to our vendor machines there would be less of cash flow.",
+        "businessCase": " Doing this initiative there would be cost of approximately 70-80 lacks and handling charges, but there can be income arising by just putting advertising from different food brands so at Break even point project will be free and TCS will get new technology and contribute toward go Green initiative ",
+        "implementationAspects":" There needs to be a new website with availability f payment gateways and handling of website and ID card details must be joined with this link and website should be handled by TCS itself so there would be no chances of data violation. This way there would be proper software record of canteen facilities.",
+        "comparativeLandscaps":" I havent seen this Idea anywhere but just thought of this.",
+        "voteUp":15,
+        "voteDown":7
+    }
+    
+
+
+
+    
+]

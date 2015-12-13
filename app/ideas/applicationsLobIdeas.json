@@ -1,0 +1,41 @@
+[
+
+    {
+        "age": 0, 
+        "id": "10004", 
+        "imageUrl": "img/3.jpg", 
+        "name": "KEDB - Known Error Database",
+        "zone":"Applications LOB",
+        "zoneId":3,
+        "zoneCategory":"New Application",
+        "zoneCategoryId":308,
+        "snippet": "With this application we can easily resolve Tickets which were introduced in the past"
+    },
+    {
+        "age": 0, 
+        "id": "10005", 
+        "imageUrl": "img/3.jpg", 
+        "name": "Application wise Knowledge bank",
+        "zone":"Applications LOB",
+        "zoneId":3,
+        "zoneCategory":"New Application",
+        "zoneCategoryId":308,
+        "snippet": "This application will be bank for Functional Knowledge of applications acroos LOBs"
+    },
+    {
+        "age": 0, 
+        "id": "10009", "postedBy" : "Diego",
+        "imageUrl": "img/3.jpg", 
+        "name": "Canteen Service online using ID card",
+        "zone":"Applications LOB",
+        "zoneId":3,
+        "zoneCategory":"New Application",
+        "zoneCategoryId":308,
+        "snippet": "There can be online service for canteen service. For eg one can recharge his canteen account just using his ID card hi can simply do it online using is debit or credit card or he can just recharge giving cash at any canteen counteer doing this there will we less of paper work like printing of cupons etc. amount will be deducted from employees canteen ac and and added to canteen facilities this way there can be less of paper work and step can be taken towards Green Revolution (save paper save trees.) this card can be even used to our vendor machines there would be less of cash flow.",
+        "businessCase": " Doing this initiative there would be cost of approximately 70-80 lacks and handling charges, but there can be income arising by just putting advertising from different food brands so at Break even point project will be free and TCS will get new technology and contribute toward go Green initiative ",
+        "implementationAspects":" There needs to be a new website with availability f payment gateways and handling of website and ID card details must be joined with this link and website should be handled by TCS itself so there would be no chances of data violation. This way there would be proper software record of canteen facilities.",
+        "comparativeLandscaps":" I havent seen this Idea anywhere but just thought of this.",
+        "voteUp":15,
+        "voteDown":7
+    }
+]

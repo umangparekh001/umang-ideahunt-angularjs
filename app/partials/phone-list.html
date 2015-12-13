@@ -1,0 +1,47 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2">
+      <!--Sidebar content-->
+
+      Search: <input ng-model="query">
+      Sort by:
+      <select ng-model="orderProp">
+        <option value="name">Alphabetical</option>
+        <option value="age">Newest</option>
+      </select>
+
+    </div>
+    <div class="col-md-10">
+      <!--Body content-->
+
+      <ul class="phones">
+        <li ng-repeat="phone in phones | filter:query | orderBy:orderProp"
+            class="thumbnail phone-listing">
+          
+          <a href="#/IdeaSearch/{{phone.id}}" class="thumb"><img ng-src="{{phone.imageUrl}}"></a>
+          <a href="#/IdeaSearch/{{phone.id}}">{{phone.name}}</a> <span>  -- Posted by <a href="{{phone.postedBy}}" >{{phone.postedBy}}</a></h6></span>
+          <p>{{phone.snippet}}</p>
+          <div class="row" style="padding:0px;">
+            <div class="col-sm-2 small">
+              <label>Zone : </label> <a href="#/idea/zoneSearch/{{phone.zone}}" >{{phone.zone}}</a>
+
+            </div>
+            <div class="col-sm-3 small">
+
+              
+            </div>
+            <div class="col-sm-2 small">
+              <label>Area/Category : </label>
+
+            </div>
+            <div class="col-sm-3 small">
+              <a href="#/idea/zoneCategorySearch/{{phone.zoneCategory}}" >{{phone.zoneCategory}}</a>
+            </div>
+          </div>
+          
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</div>

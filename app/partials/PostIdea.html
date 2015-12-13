@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Post Idea</title>
+</head>
+<body>
+   <div  class="col-sm-8">
+
+<div class="panel panel-info">
+    <div class="panel-heading">Post your Idea - Step 1 </div>
+    <div class="panel-body">
+        <form ng-controller="PostIdeaCtrl" name="PostIdea1" action="#/ideaHunt/postIdea2">
+            <div class="form-group">
+                <label for="title">Title:</label>
+                <input name="title" ng-model="title" type="text" class="form-control SelectField" ng-required="true"
+                       placeholder="Capture the essence of your idea in single line" id="title">
+            </div>
+            <div class="form-group">
+                <label for="briefDescription">Full Idea:</label>
+                <textarea name="briefDescription" id="briefDescription" class="form-control SelectField" rows="3" ng-required="true"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="ideaTags">Tags:</label>
+
+                 <span class="glyphicon glyphicon-pushpin"></span><input type="text" class="form-control" placeholder="Tag your Idea !" id="ideaTags">
+            </div>
+            <div class="form-group">
+                <label for="attachDocument">Attach Document:</label>
+                <input type="file" class="form-control" id="attachDocument">
+            </div>
+            <div class="form-group">
+                <label for="sharepointDocUrl">Add an URL :</label>
+                <input type="text" class="form-control" id="sharepointDocUrl" placeholder="Sharepoint document link that explains your idea">
+            </div>
+
+
+            <ul class="pager">
+                <button type="submit" class="btn btn-primary">Save and Proceed</button>
+                
+            </ul>
+        </form>
+
+    </div>
+    <div class="panel-footer">
+
+
+    </div>
+</div>
+    </div>
+    <div  class="col-sm-4">
+        <div class="panel panel-warning">
+            <div class="panel-heading">
+                <h4 class="panel-title">Sample Ideas to help you ... </h4>
+            </div>
+            <div class="panel-body">
+                 <ul>
+			                <li ng-repeat="idea in technologyIdeas | limitTo: 4"
+			                    >
+			                    <a href="#/IdeaSearch/{{idea.id}}">{{idea.name}}</a>
+			                    <p>{{idea.snippet}}</p>
+			                </li>
+			            </ul>
+            </div>
+            <div class="panel-footer">
+
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+</body>
+</html>

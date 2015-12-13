@@ -1,0 +1,14 @@
+ {
+        "age": 0, 
+        "id": "10005", "postedBy" : "murali",
+        "imageUrl": "img/3.jpg", 
+        "name": "Application wise Knowledge bank",
+        "zone":"Applications LOB",
+        "zoneId":3,
+          "date":"19-Jan-2015",
+        "zoneCategory":"New Application",
+        "zoneCategoryId":308,
+        "snippet": "This application will be bank for Functional Knowledge of applications acroos LOBs",
+           "voteUp":15,
+        "voteDown":7
+    }

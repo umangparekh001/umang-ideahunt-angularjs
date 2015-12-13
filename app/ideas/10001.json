@@ -1,0 +1,15 @@
+ {
+        "age": 0, 
+        "id": "10001", 
+        "imageUrl": "img/1.jpg", 
+        "postedBy" : "priti",
+        "name": "Automation for Basic Softwares for New Onboarded associates",
+        "zone":"Technology",
+        "zoneId":1,
+        "date":"11-Nov-2007",
+        "zoneCategory":"IT as a Service",
+        "zoneCategoryId":106,
+        "snippet": "Currently every new associate has to submit request in appstore for every software and it is taking so much time so this way it will increase productivity and they can start working on from first day itself ",
+         "voteUp":15,
+        "voteDown":7
+    }

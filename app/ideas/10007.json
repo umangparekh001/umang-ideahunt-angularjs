@@ -1,0 +1,18 @@
+  {
+        "age": 0, 
+        "id": "10007", "postedBy" : "Anjali",
+        "imageUrl": "img/2.jpg", 
+        "name": "Productivity improvement idea",
+        "zone":"Process",
+        "zoneId":2,
+        "zoneCategory":"Improvement Framework",
+        "zoneCategoryId":220,
+        "snippet": "While transferring the chat to Home Moves team we need to ask a particular set of questions before the transfer as a check. The time taken to ask the questions increases the overall time to set up an account or close an account for the customer as about 1/4th time of the total time is taken to take the details before transferring the chat.",
+        "businessCase": " As the time taken by the Web chat customer service agent is approximately 1/4th of the total time taken to set up the account for the Move in customer or to close the account for the move out customer. It increases the total time to complete the process and hampers the productivity.",
+        "implementationAspects":"As the same set of questions are to be asked, we can add a folder of these questions in the standard text option of the Rightnow which will be easily accessible to the agent to ask the question and it will save the time.",
+        "comparativeLandscaps":"Alternatively, the agent can maintain his own sheet of all the required statement but it will take more time as compared to what will be taken if we use the standard statement.",
+        "Applicability":"This idea is for the improvement of the productivity and decrease the time taken to set up or close the account.",
+        "voteUp":5,
+        "date":"10-Dec-2015",
+        "voteDown":1
+    }

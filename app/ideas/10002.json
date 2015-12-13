@@ -1,0 +1,15 @@
+{
+        "age": 0, 
+        "id": "10002", 
+         "postedBy" : "anupam",
+        "imageUrl": "img/2.jpg", 
+        "name": "PPM should take tasks automatically from Service-now",
+        "zone":"Process",
+        "zoneId":2,
+         "date":"12-Oct-2010",
+        "zoneCategory":"Finance",
+        "zoneCategoryId":101,
+        "snippet": "Currently we are sending request in Sharepoint and then it goes to Manager for creating Tasks manually and then and then it is available for filling PPM, This way we can reduce time for all these processes",
+          "voteUp":15,
+        "voteDown":7
+    }

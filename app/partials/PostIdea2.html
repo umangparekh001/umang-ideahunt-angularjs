@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Post Idea - Step 2</title>
+</head>
+<body>
+<div  class="col-sm-8">
+
+    <div class="panel panel-info">
+
+        <div class="panel-heading">Post your Idea -  Step 2 </div>
+        <form ng-controller="PostIdeaCtrl" name="PostIdea2" action="#/ideaHunt/postIdea3">
+            <div class="panel-body">
+
+                <div class="form-group">
+                    <label for="zoneSelect"> Zone <span class="required"> *</span></label>
+                    <select name="zonesSelect" class="form-control SelectField" id="zoneSelect" ng-required="true"  ng-model="zoneId" ng-change="getZoneCategories()">
+                        <option value="">Select</option>
+                        <option ng-repeat="option in zonesList" value="{{option.id}}">{{option.label}}</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="zoneCategorySelect">Category:</label>
+                    <select name="zonesCategorySelect " class="form-control SelectField" id="zoneCategorySelect" ng-required="true" ng-model="idea.zoneCategory">
+                        <option value="">Select</option>
+                        <option ng-repeat="option in categories" value="{{option.id}}">{{option.label}}</option>
+                    </select>
+                </div>
+
+
+             <ul class="pager">
+                <button type="submit" class="btn btn-primary">Save and Proceed</button>
+                
+            </ul>
+        </div>
+        </form>
+    </div>
+</div>
+<div  class="col-sm-4">
+    <div class="panel panel-warning">
+        <div class="panel-heading">
+            <h4 class="panel-title">Sample Ideas to help you ...</h4>
+        </div>
+        <div class="panel-body">
+               <ul>
+			                <li ng-repeat="idea in processIdeas | limitTo: 4"
+			                    >
+			                    <a href="#/IdeaSearch/{{idea.id}}">{{idea.name}}</a>
+			                    <p>{{idea.snippet}}</p>
+			                </li>
+			            </ul>
+        </div>
+        <div class="panel-footer">
+
+
+        </div>
+    </div>
+
+
+</div>
+
+
+</body>
+</html>
