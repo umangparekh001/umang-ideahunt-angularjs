@@ -5,7 +5,7 @@
   "description": "A tutorial application for AngularJS",
   "repository": "https://github.com/umangparekh001/herokuIdeaHunt",
   "license": "MIT",
-  "main": "server.js"
+  "main": "server.js",
   "devDependencies": {
     "karma": "^0.12.16",
     "karma-chrome-launcher": "^0.1.4",
