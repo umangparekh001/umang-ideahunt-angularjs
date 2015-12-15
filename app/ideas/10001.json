@@ -10,6 +10,10 @@
         "zoneCategory":"IT as a Service",
         "zoneCategoryId":106,
         "snippet": "Currently every new associate has to submit request in appstore for every software and it is taking so much time so this way it will increase productivity and they can start working on from first day itself ",
-         "voteUp":15,
-        "voteDown":7
+        "businessCase": " Business case Description ",
+        "implementationAspects":" implementation case Description",
+        "comparativeLandscaps":" ComparativeLandscaps Description",
+        "applicability":" Applicability Description",
+         "voteUp":70,
+        "voteDown":1
     }
