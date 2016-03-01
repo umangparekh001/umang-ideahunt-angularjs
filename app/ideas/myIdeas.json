@@ -1,0 +1,35 @@
+[    {
+        "age": 0, 
+        "id": "10001", 
+        "imageUrl": "img/1.jpg", 
+        "name": "Automation for Basic Softwares for New Onboarded associates",
+        "zone":"Technology",
+        "zoneId":1,
+        "zoneCategory":"IT as a Service",
+        "zoneCategoryId":106,
+        "snippet": "Currently every new associate has to submit request in appstore for every software and it is taking so much time so this way it will increase productivity and they can start working on from first day itself "
+    }, 
+    {
+        "age": 0, 
+        "id": "10003", 
+        "imageUrl": "img/2.jpg", 
+        "name": "Offboarding is not happening fully",
+        "zone":"Process",
+        "zoneId":2,
+        "zoneCategory":"Data Security and Operational Risk Management",
+        "zoneCategoryId":202,
+        "snippet": "Whenever any associate gets offboarded it will automatically raise an Incident for every Team where he is account prevviously and asks them to deactivate their account."
+    },
+    {
+        "age": 0, 
+        "id": "10005", 
+        "imageUrl": "img/3.jpg", 
+        "name": "Knowledge bank",
+        "zone":"Applications LOB",
+        "zoneId":3,
+        "zoneCategory":"New Application",
+        "zoneCategoryId":308,
+        "snippet": "This application will be bank for Functional Knowledge of applications acroos LOBs"
+    }
+ 
+ ]
