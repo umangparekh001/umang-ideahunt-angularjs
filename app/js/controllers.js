@@ -10,12 +10,13 @@ phonecatControllers.controller('PhoneListCtrl', ['$scope', 'Ideas','Phone',
     $scope.orderProp = 'age';
   }]);
 
-phonecatControllers.controller('IdeaDashbaordCtrl', ['$scope', '$filter',  'ProcessIdea', 'TechnologyIdeas', 'ApplicationLobIdeas', 
-  function($scope, $filter,  ProcessIdea, TechnologyIdeas, ApplicationLobIdeas) {
+phonecatControllers.controller('IdeaDashbaordCtrl', ['$scope', '$filter',  'ProcessIdea', 'TechnologyIdeas', 'ApplicationLobIdeas', 'MyIdeas',
+  function($scope, $filter,  ProcessIdea, TechnologyIdeas, ApplicationLobIdeas, MyIdeas) {
   
     $scope.technologyIdeas = TechnologyIdeas.query();
     $scope.processIdeas = ProcessIdea.query();
     $scope.applicationsLobIdeas =ApplicationLobIdeas.query();
+    $scope.myIdeas = MyIdeas.query();
       
   }]);
 
