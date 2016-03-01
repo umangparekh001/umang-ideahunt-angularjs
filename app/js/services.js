@@ -26,6 +26,13 @@ ideaHuntServices.factory('ProcessIdea', ['$resource',
       query: {method:'GET', params:{ideaId:'processIdeas'}, isArray:true}
     });
   }]);
+  
+  ideaHuntServices.factory('MyIdeas', ['$resource',
+  function($resource){
+    return $resource('ideas/:ideaId.json', {}, {
+      query: {method:'GET', params:{ideaId:'myIdeas'}, isArray:true}
+    });
+  }]);
 
 ideaHuntServices.factory('ApplicationLobIdeas', ['$resource',
   function($resource){
